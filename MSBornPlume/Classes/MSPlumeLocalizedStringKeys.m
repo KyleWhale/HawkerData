@@ -1,0 +1,47 @@
+//
+//  MSPlumeLocalizedStringKeys.m
+//  Pods
+//
+//  Created by admin on 2019/11/27.
+//
+
+#import "MSPlumeLocalizedStringKeys.h"
+
+NS_ASSUME_NONNULL_BEGIN 
+
+#if 0
+(UIKIT_EXTERN\s)(MSPlumeLocalizedStringKey\sconst\s)([^;]+)
+$2$3 = @"$3"
+#endif
+
+MSPlumeLocalizedStringKey const MSPlumeLocalizedStringKeyLongPressSpeedupPlayback = @"MSPlumeLocalizedStringKeyLongPressSpeedupPlayback";
+MSPlumeLocalizedStringKey const MSPlumeLocalizedStringKeyNoNetwork = @"MSPlumeLocalizedStringKeyNoNetwork";
+MSPlumeLocalizedStringKey const MSPlumeLocalizedStringKeyWiFiNetWork = @"MSPlumeLocalizedStringKeyWiFiNetWork";
+MSPlumeLocalizedStringKey const MSPlumeLocalizedStringKeyCellularNetwork = @"MSPlumeLocalizedStringKeyCellularNetwork";
+MSPlumeLocalizedStringKey const MSPlumeLocalizedStringKeyReplay = @"MSPlumeLocalizedStringKeyReplay";
+MSPlumeLocalizedStringKey const MSPlumeLocalizedStringKeyRetry = @"MSPlumeLocalizedStringKeyRetry";
+MSPlumeLocalizedStringKey const MSPlumeLocalizedStringKeyReload = @"MSPlumeLocalizedStringKeyReload"; 
+MSPlumeLocalizedStringKey const MSPlumeLocalizedStringKeyLiveBroadcast = @"MSPlumeLocalizedStringKeyLiveBroadcast";
+MSPlumeLocalizedStringKey const MSPlumeLocalizedStringKeyCancel = @"MSPlumeLocalizedStringKeyCancel";
+MSPlumeLocalizedStringKey const MSPlumeLocalizedStringKeyDone = @"MSPlumeLocalizedStringKeyDone";
+MSPlumeLocalizedStringKey const MSPlumeLocalizedStringKeyUnstableNetworkPrompt = @"MSPlumeLocalizedStringKeyUnstableNetworkPrompt";
+MSPlumeLocalizedStringKey const MSPlumeLocalizedStringKeyCellularNetworkPrompt = @"MSPlumeLocalizedStringKeyCellularNetworkPrompt";
+MSPlumeLocalizedStringKey const MSPlumeLocalizedStringKeyNoNetworkPrompt = @"MSPlumeLocalizedStringKeyNoNetworkPrompt";
+MSPlumeLocalizedStringKey const MSPlumeLocalizedStringKeyPlaybackFailedPrompt = @"MSPlumeLocalizedStringKeyPlaybackFailedPrompt";
+MSPlumeLocalizedStringKey const MSPlumeLocalizedStringKeyRecordsPreparingPrompt = @"MSPlumeLocalizedStringKeyRecordsPreparingPrompt";
+MSPlumeLocalizedStringKey const MSPlumeLocalizedStringKeyRecordsToFinishRecordingPrompt = @"MSPlumeLocalizedStringKeyRecordsToFinishRecordingPrompt";
+MSPlumeLocalizedStringKey const MSPlumeLocalizedStringKeyExportsExportingPrompt = @"MSPlumeLocalizedStringKeyExportsExportingPrompt";
+MSPlumeLocalizedStringKey const MSPlumeLocalizedStringKeyExportsExportFailedPrompt = @"MSPlumeLocalizedStringKeyExportsExportFailedPrompt";
+MSPlumeLocalizedStringKey const MSPlumeLocalizedStringKeyExportsExportSuccessfullyPrompt = @"MSPlumeLocalizedStringKeyExportsExportSuccessfullyPrompt";
+MSPlumeLocalizedStringKey const MSPlumeLocalizedStringKeyUploadsUploadingPrompt = @"MSPlumeLocalizedStringKeyUploadsUploadingPrompt";
+MSPlumeLocalizedStringKey const MSPlumeLocalizedStringKeyUploadsUploadFailedPrompt = @"MSPlumeLocalizedStringKeyUploadsUploadFailedPrompt";
+MSPlumeLocalizedStringKey const MSPlumeLocalizedStringKeyUploadsUploadSuccessfullyPrompt = @"MSPlumeLocalizedStringKeyUploadsUploadSuccessfullyPrompt";
+MSPlumeLocalizedStringKey const MSPlumeLocalizedStringKeyScreenshotSuccessfullyPrompt = @"MSPlumeLocalizedStringKeyScreenshotSuccessfullyPrompt";
+MSPlumeLocalizedStringKey const MSPlumeLocalizedStringKeyAlbumAuthDeniedPrompt = @"MSPlumeLocalizedStringKeyAlbumAuthDeniedPrompt";
+MSPlumeLocalizedStringKey const MSPlumeLocalizedStringKeyAlbumSavingScreenshotToAlbumPrompt = @"MSPlumeLocalizedStringKeyAlbumSavingScreenshotToAlbumPrompt";
+MSPlumeLocalizedStringKey const MSPlumeLocalizedStringKeyAlbumSavedToAlbumPrompt = @"MSPlumeLocalizedStringKeyAlbumSavedToAlbumPrompt";
+MSPlumeLocalizedStringKey const MSPlumeLocalizedStringKeyOperationFailedPrompt = @"MSPlumeLocalizedStringKeyOperationFailedPrompt";
+MSPlumeLocalizedStringKey const MSPlumeLocalizedStringKeyDefinitionSwitchingPrompt = @"MSPlumeLocalizedStringKeyDefinitionSwitchingPrompt";
+MSPlumeLocalizedStringKey const MSPlumeLocalizedStringKeyDefinitionSwitchSuccessfullyPrompt = @"MSPlumeLocalizedStringKeyDefinitionSwitchSuccessfullyPrompt";
+MSPlumeLocalizedStringKey const MSPlumeLocalizedStringKeyDefinitionSwitchFailedPrompt = @"MSPlumeLocalizedStringKeyDefinitionSwitchFailedPrompt";
+NS_ASSUME_NONNULL_END

@@ -1,0 +1,1010 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0185EE742A402EE8002CF3DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EE732A402EE8002CF3DE /* AppDelegate.m */; };
+		0185EE7A2A402EE8002CF3DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EE792A402EE8002CF3DE /* ViewController.m */; };
+		0185EE7D2A402EE8002CF3DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0185EE7B2A402EE8002CF3DE /* Main.storyboard */; };
+		0185EE7F2A402EEA002CF3DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0185EE7E2A402EEA002CF3DE /* Assets.xcassets */; };
+		0185EE822A402EEA002CF3DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0185EE802A402EEA002CF3DE /* LaunchScreen.storyboard */; };
+		0185EE852A402EEA002CF3DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EE842A402EEA002CF3DE /* main.m */; };
+		0185EF512A402FB2002CF3DE /* MSSpeedupPlaybackPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EE982A402FB1002CF3DE /* MSSpeedupPlaybackPopupView.m */; };
+		0185EF522A402FB2002CF3DE /* MSPlumeURLAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EE9A2A402FB1002CF3DE /* MSPlumeURLAsset.m */; };
+		0185EF532A402FB2002CF3DE /* MSUTAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EE9C2A402FB1002CF3DE /* MSUTAttributes.m */; };
+		0185EF542A402FB2002CF3DE /* MSDeviceVolumeAndBrightnessTargetViewContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EE9D2A402FB1002CF3DE /* MSDeviceVolumeAndBrightnessTargetViewContext.m */; };
+		0185EF552A402FB2002CF3DE /* MSFitOnScreenManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EE9E2A402FB1002CF3DE /* MSFitOnScreenManager.m */; };
+		0185EF562A402FB2002CF3DE /* MSCommonProgressSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EEA62A402FB1002CF3DE /* MSCommonProgressSlider.m */; };
+		0185EF572A402FB2002CF3DE /* MSEdgeControlLayerAdapters.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EEAA2A402FB1002CF3DE /* MSEdgeControlLayerAdapters.m */; };
+		0185EF582A402FB2002CF3DE /* MSEdgeControlButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EEAC2A402FB1002CF3DE /* MSEdgeControlButtonItem.m */; };
+		0185EF592A402FB2002CF3DE /* MSExecuteCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EEAF2A402FB1002CF3DE /* MSExecuteCode.m */; };
+		0185EF5A2A402FB2002CF3DE /* MSPlaybackObservation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EEB42A402FB1002CF3DE /* MSPlaybackObservation.m */; };
+		0185EF5B2A402FB2002CF3DE /* MSBornPlumeConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EEB72A402FB1002CF3DE /* MSBornPlumeConst.m */; };
+		0185EF5C2A402FB2002CF3DE /* UIView+MSAnimationAdded.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EEB92A402FB1002CF3DE /* UIView+MSAnimationAdded.m */; };
+		0185EF5D2A402FB2002CF3DE /* MSDeviceVolumeAndBrightnessController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EEC02A402FB1002CF3DE /* MSDeviceVolumeAndBrightnessController.m */; };
+		0185EF5E2A402FB2002CF3DE /* MSItemTags.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EEC12A402FB1002CF3DE /* MSItemTags.m */; };
+		0185EF5F2A402FB2002CF3DE /* MSTaskQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EEC52A402FB1002CF3DE /* MSTaskQueue.m */; };
+		0185EF602A402FB2002CF3DE /* MSRotationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EEC62A402FB1002CF3DE /* MSRotationManager.m */; };
+		0185EF612A402FB2002CF3DE /* MSRotationFullscreenNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EEC72A402FB1002CF3DE /* MSRotationFullscreenNavigationController.m */; };
+		0185EF622A402FB2002CF3DE /* MSButtonProgressSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EEC92A402FB1002CF3DE /* MSButtonProgressSlider.m */; };
+		0185EF632A402FB2002CF3DE /* MSControlLayerIdentifiers.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EECA2A402FB1002CF3DE /* MSControlLayerIdentifiers.m */; };
+		0185EF642A402FB2002CF3DE /* MSPlumePresentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EECC2A402FB1002CF3DE /* MSPlumePresentView.m */; };
+		0185EF652A402FB2002CF3DE /* MSExecuteCodeLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EECD2A402FB1002CF3DE /* MSExecuteCodeLoader.m */; };
+		0185EF662A402FB2002CF3DE /* MSPlumeControlMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EECE2A402FB1002CF3DE /* MSPlumeControlMaskView.m */; };
+		0185EF672A402FB2002CF3DE /* MSPlumeResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EED12A402FB1002CF3DE /* MSPlumeResourceLoader.m */; };
+		0185EF682A402FB2002CF3DE /* MSEdgeControlButtonItemAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EED32A402FB1002CF3DE /* MSEdgeControlButtonItemAdapter.m */; };
+		0185EF692A402FB2002CF3DE /* MSPresentationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EED42A402FB1002CF3DE /* MSPresentationQueue.m */; };
+		0185EF6A2A402FB2002CF3DE /* MSLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EED72A402FB1002CF3DE /* MSLoadingView.m */; };
+		0185EF6B2A402FB2002CF3DE /* MSRotationFullscreenWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EEDA2A402FB1002CF3DE /* MSRotationFullscreenWindow.m */; };
+		0185EF6C2A402FB2002CF3DE /* MSLoadFailedControlLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EEDE2A402FB1002CF3DE /* MSLoadFailedControlLayer.m */; };
+		0185EF6D2A402FB2002CF3DE /* MSRotationObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EEE12A402FB1002CF3DE /* MSRotationObserver.m */; };
+		0185EF6E2A402FB2002CF3DE /* MSUTUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EEE32A402FB1002CF3DE /* MSUTUtils.m */; };
+		0185EF6F2A402FB2002CF3DE /* MSNotReachableControlLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EEE42A402FB1002CF3DE /* MSNotReachableControlLayer.m */; };
+		0185EF702A402FB2002CF3DE /* MSRotationDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EEE72A402FB1002CF3DE /* MSRotationDefines.m */; };
+		0185EF712A402FB2002CF3DE /* MSDraggingObservation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EEEA2A402FB1002CF3DE /* MSDraggingObservation.m */; };
+		0185EF722A402FB2002CF3DE /* MSReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EEEE2A402FB1002CF3DE /* MSReachability.m */; };
+		0185EF732A402FB2002CF3DE /* CALayer+MSBornPlumeExtended.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EEEF2A402FB1002CF3DE /* CALayer+MSBornPlumeExtended.m */; };
+		0185EF742A402FB2002CF3DE /* NSObject+MSObserverHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EEF02A402FB1002CF3DE /* NSObject+MSObserverHelper.m */; };
+		0185EF752A402FB2002CF3DE /* MSRotationFullscreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EEF12A402FB1002CF3DE /* MSRotationFullscreenViewController.m */; };
+		0185EF762A402FB2002CF3DE /* MSEdgeControlLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EEF62A402FB1002CF3DE /* MSEdgeControlLayer.m */; };
+		0185EF772A402FB2002CF3DE /* MSPlumeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EEF82A402FB1002CF3DE /* MSPlumeModel.m */; };
+		0185EF782A402FB2002CF3DE /* MSPlume.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EEFC2A402FB1002CF3DE /* MSPlume.m */; };
+		0185EF792A402FB2002CF3DE /* MSPlumeConfigurations.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EEFD2A402FB1002CF3DE /* MSPlumeConfigurations.m */; };
+		0185EF7A2A402FB2002CF3DE /* MSUTRangeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EEFE2A402FB1002CF3DE /* MSUTRangeHandler.m */; };
+		0185EF7B2A402FB2002CF3DE /* MSUTRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EEFF2A402FB1002CF3DE /* MSUTRecorder.m */; };
+		0185EF7C2A402FB2002CF3DE /* MSUTRegexHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EF022A402FB1002CF3DE /* MSUTRegexHandler.m */; };
+		0185EF7D2A402FB2002CF3DE /* MSViewControllerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EF032A402FB1002CF3DE /* MSViewControllerManager.m */; };
+		0185EF7E2A402FB2002CF3DE /* MSFlipTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EF062A402FB1002CF3DE /* MSFlipTransitionManager.m */; };
+		0185EF7F2A402FB2002CF3DE /* MSCharmView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EF072A402FB1002CF3DE /* MSCharmView.m */; };
+		0185EF802A402FB2002CF3DE /* MSDraggingProgressPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EF082A402FB1002CF3DE /* MSDraggingProgressPopupView.m */; };
+		0185EF812A402FB2002CF3DE /* MSUIKitTextMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EF0A2A402FB1002CF3DE /* MSUIKitTextMaker.m */; };
+		0185EF822A402FB2002CF3DE /* MSPlumeResource+MSResourcePlaybackAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EF0C2A402FB1002CF3DE /* MSPlumeResource+MSResourcePlaybackAdd.m */; };
+		0185EF832A402FB2002CF3DE /* MSMoreSettingControlLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EF102A402FB1002CF3DE /* MSMoreSettingControlLayer.m */; };
+		0185EF842A402FB2002CF3DE /* NSAttributedString+MSMake.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EF112A402FB1002CF3DE /* NSAttributedString+MSMake.m */; };
+		0185EF852A402FB2002CF3DE /* NSString+MSBornPlumeExtended.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EF122A402FB1002CF3DE /* NSString+MSBornPlumeExtended.m */; };
+		0185EF862A402FB2002CF3DE /* MSSubtitlePopupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EF132A402FB1002CF3DE /* MSSubtitlePopupController.m */; };
+		0185EF872A402FB2002CF3DE /* MSSubtitleItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EF142A402FB1002CF3DE /* MSSubtitleItem.m */; };
+		0185EF882A402FB2002CF3DE /* MSPlumeRegistrar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EF152A402FB1002CF3DE /* MSPlumeRegistrar.m */; };
+		0185EF892A402FB2002CF3DE /* MSPlumeResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EF192A402FB1002CF3DE /* MSPlumeResource.m */; };
+		0185EF8A2A402FB2002CF3DE /* MSTimerControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EF1A2A402FB1002CF3DE /* MSTimerControl.m */; };
+		0185EF8B2A402FB2002CF3DE /* MSPlumeResource+MSControlAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EF1B2A402FB1002CF3DE /* MSPlumeResource+MSControlAdd.m */; };
+		0185EF8C2A402FB2002CF3DE /* MSResourcePlaybackController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EF1F2A402FB1002CF3DE /* MSResourcePlaybackController.m */; };
+		0185EF8D2A402FB2002CF3DE /* NSTimer+MSAssetAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EF222A402FB1002CF3DE /* NSTimer+MSAssetAdd.m */; };
+		0185EF8E2A402FB2002CF3DE /* MSRunLoopTaskQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EF272A402FB1002CF3DE /* MSRunLoopTaskQueue.m */; };
+		0185EF8F2A402FB2002CF3DE /* AVAsset+MSResourceExport.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EF282A402FB1002CF3DE /* AVAsset+MSResourceExport.m */; };
+		0185EF902A402FB2002CF3DE /* MSControlLayerSwitcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EF292A402FB1002CF3DE /* MSControlLayerSwitcher.m */; };
+		0185EF912A402FB2002CF3DE /* MSPlumeURLAssetPrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EF2C2A402FB1002CF3DE /* MSPlumeURLAssetPrefetcher.m */; };
+		0185EF922A402FB2002CF3DE /* MSPlumeResourcePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EF2D2A402FB1002CF3DE /* MSPlumeResourcePrefetcher.m */; };
+		0185EF932A402FB2002CF3DE /* UIViewController+MSBornPlumeExtended.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EF2F2A402FB1002CF3DE /* UIViewController+MSBornPlumeExtended.m */; };
+		0185EF942A402FB2002CF3DE /* MSExecuteCodeLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EF322A402FB1002CF3DE /* MSExecuteCodeLayerView.m */; };
+		0185EF952A402FB2002CF3DE /* MSRotationManager_iOS_16_Later.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EF332A402FB1002CF3DE /* MSRotationManager_iOS_16_Later.m */; };
+		0185EF962A402FB2002CF3DE /* MSMTPlaybackController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EF352A402FB1002CF3DE /* MSMTPlaybackController.m */; };
+		0185EF972A402FB2002CF3DE /* MSPlumeResource+MSSubtitlesAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EF362A402FB1002CF3DE /* MSPlumeResource+MSSubtitlesAdd.m */; };
+		0185EF982A402FB2002CF3DE /* MSBornPlume.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EF372A402FB1002CF3DE /* MSBornPlume.m */; };
+		0185EF992A402FB2002CF3DE /* MSDeviceVolumeAndBrightness.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EF392A402FB1002CF3DE /* MSDeviceVolumeAndBrightness.m */; };
+		0185EF9A2A402FB2002CF3DE /* MSEdgeControlButtonItemAdapterLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EF3A2A402FB1002CF3DE /* MSEdgeControlButtonItemAdapterLayout.m */; };
+		0185EF9B2A402FB2002CF3DE /* UIView+MSBornPlumeExtended.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EF3D2A402FB1002CF3DE /* UIView+MSBornPlumeExtended.m */; };
+		0185EF9C2A402FB2002CF3DE /* MSPlumeLocalizedStringKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EF3E2A402FB1002CF3DE /* MSPlumeLocalizedStringKeys.m */; };
+		0185EF9D2A402FB2002CF3DE /* MSScrollingTextMarqueeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EF3F2A402FB1002CF3DE /* MSScrollingTextMarqueeView.m */; };
+		0185EF9E2A402FB2002CF3DE /* MSProgressSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EF432A402FB1002CF3DE /* MSProgressSlider.m */; };
+		0185EF9F2A402FB2002CF3DE /* MSEdgeControlButtonItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EF442A402FB1002CF3DE /* MSEdgeControlButtonItemView.m */; };
+		0185EFA02A402FB2002CF3DE /* MSControlLayerAppearStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EF462A402FB1002CF3DE /* MSControlLayerAppearStateManager.m */; };
+		0185EFA12A402FB2002CF3DE /* MSFullscreenModeStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EF472A402FB2002CF3DE /* MSFullscreenModeStatusBar.m */; };
+		0185EFA22A402FB2002CF3DE /* MSRotationManager_iOS_9_15.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EF482A402FB2002CF3DE /* MSRotationManager_iOS_9_15.m */; };
+		0185EFA32A402FB2002CF3DE /* MSQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EF4A2A402FB2002CF3DE /* MSQueue.m */; };
+		0185EFA42A402FB2002CF3DE /* MSBornPlumeResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185EF4C2A402FB2002CF3DE /* MSBornPlumeResourceLoader.m */; };
+		0185EFA52A402FB2002CF3DE /* MSBornPlumeResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0185EF4F2A402FB2002CF3DE /* MSBornPlumeResources.bundle */; };
+		0185EFA62A402FB2002CF3DE /* MSPlume.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0185EF502A402FB2002CF3DE /* MSPlume.bundle */; };
+		6090EF00F9EA11A06AFF2595 /* Pods_MSBornPlume.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6E247F2196975803AC36C8A /* Pods_MSBornPlume.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0185EE6F2A402EE8002CF3DE /* MSBornPlume.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSBornPlume.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0185EE722A402EE8002CF3DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0185EE732A402EE8002CF3DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0185EE782A402EE8002CF3DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0185EE792A402EE8002CF3DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0185EE7C2A402EE8002CF3DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0185EE7E2A402EEA002CF3DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0185EE812A402EEA002CF3DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0185EE832A402EEA002CF3DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0185EE842A402EEA002CF3DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0185EE8D2A402FB1002CF3DE /* MSViewControllerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSViewControllerManager.h; sourceTree = "<group>"; };
+		0185EE8E2A402FB1002CF3DE /* MSUTRegexHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSUTRegexHandler.h; sourceTree = "<group>"; };
+		0185EE8F2A402FB1002CF3DE /* MSUTRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSUTRecorder.h; sourceTree = "<group>"; };
+		0185EE902A402FB1002CF3DE /* MSDraggingObservationDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSDraggingObservationDefines.h; sourceTree = "<group>"; };
+		0185EE912A402FB1002CF3DE /* MSPlumeConfigurations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSPlumeConfigurations.h; sourceTree = "<group>"; };
+		0185EE922A402FB1002CF3DE /* MSViewControllerManagerDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSViewControllerManagerDefines.h; sourceTree = "<group>"; };
+		0185EE932A402FB1002CF3DE /* MSUTRangeHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSUTRangeHandler.h; sourceTree = "<group>"; };
+		0185EE942A402FB1002CF3DE /* MSPlume.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSPlume.h; sourceTree = "<group>"; };
+		0185EE952A402FB1002CF3DE /* MSPlumePresentViewDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSPlumePresentViewDefines.h; sourceTree = "<group>"; };
+		0185EE962A402FB1002CF3DE /* MSDraggingProgressPopupViewDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSDraggingProgressPopupViewDefines.h; sourceTree = "<group>"; };
+		0185EE972A402FB1002CF3DE /* MSPlumeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSPlumeModel.h; sourceTree = "<group>"; };
+		0185EE982A402FB1002CF3DE /* MSSpeedupPlaybackPopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSpeedupPlaybackPopupView.m; sourceTree = "<group>"; };
+		0185EE992A402FB1002CF3DE /* MSEdgeControlLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSEdgeControlLayer.h; sourceTree = "<group>"; };
+		0185EE9A2A402FB1002CF3DE /* MSPlumeURLAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSPlumeURLAsset.m; sourceTree = "<group>"; };
+		0185EE9B2A402FB1002CF3DE /* MSEdgeControlButtonItemInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSEdgeControlButtonItemInternal.h; sourceTree = "<group>"; };
+		0185EE9C2A402FB1002CF3DE /* MSUTAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSUTAttributes.m; sourceTree = "<group>"; };
+		0185EE9D2A402FB1002CF3DE /* MSDeviceVolumeAndBrightnessTargetViewContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSDeviceVolumeAndBrightnessTargetViewContext.m; sourceTree = "<group>"; };
+		0185EE9E2A402FB1002CF3DE /* MSFitOnScreenManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSFitOnScreenManager.m; sourceTree = "<group>"; };
+		0185EE9F2A402FB1002CF3DE /* MSRotationFullscreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSRotationFullscreenViewController.h; sourceTree = "<group>"; };
+		0185EEA02A402FB1002CF3DE /* NSObject+MSObserverHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MSObserverHelper.h"; sourceTree = "<group>"; };
+		0185EEA12A402FB1002CF3DE /* CALayer+MSBornPlumeExtended.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+MSBornPlumeExtended.h"; sourceTree = "<group>"; };
+		0185EEA22A402FB1002CF3DE /* NSString+MSBornPlumeExtended.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MSBornPlumeExtended.h"; sourceTree = "<group>"; };
+		0185EEA32A402FB1002CF3DE /* MSSubtitlePopupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSubtitlePopupController.h; sourceTree = "<group>"; };
+		0185EEA42A402FB1002CF3DE /* NSAttributedString+MSMake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+MSMake.h"; sourceTree = "<group>"; };
+		0185EEA52A402FB1002CF3DE /* MSMoreSettingControlLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSMoreSettingControlLayer.h; sourceTree = "<group>"; };
+		0185EEA62A402FB1002CF3DE /* MSCommonProgressSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCommonProgressSlider.m; sourceTree = "<group>"; };
+		0185EEA72A402FB1002CF3DE /* MSScrollingTextMarqueeViewDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSScrollingTextMarqueeViewDefines.h; sourceTree = "<group>"; };
+		0185EEA82A402FB1002CF3DE /* MSCharmViewInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCharmViewInternal.h; sourceTree = "<group>"; };
+		0185EEA92A402FB1002CF3DE /* MSPlumeResource+MSResourcePlaybackAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MSPlumeResource+MSResourcePlaybackAdd.h"; sourceTree = "<group>"; };
+		0185EEAA2A402FB1002CF3DE /* MSEdgeControlLayerAdapters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSEdgeControlLayerAdapters.m; sourceTree = "<group>"; };
+		0185EEAB2A402FB1002CF3DE /* MSUIKitTextMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSUIKitTextMaker.h; sourceTree = "<group>"; };
+		0185EEAC2A402FB1002CF3DE /* MSEdgeControlButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSEdgeControlButtonItem.m; sourceTree = "<group>"; };
+		0185EEAD2A402FB1002CF3DE /* MSCharmView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCharmView.h; sourceTree = "<group>"; };
+		0185EEAE2A402FB1002CF3DE /* MSDraggingProgressPopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSDraggingProgressPopupView.h; sourceTree = "<group>"; };
+		0185EEAF2A402FB1002CF3DE /* MSExecuteCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSExecuteCode.m; sourceTree = "<group>"; };
+		0185EEB02A402FB1002CF3DE /* MSFlipTransitionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSFlipTransitionManager.h; sourceTree = "<group>"; };
+		0185EEB12A402FB1002CF3DE /* MSPlumeResource+MSSubtitlesAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MSPlumeResource+MSSubtitlesAdd.h"; sourceTree = "<group>"; };
+		0185EEB22A402FB1002CF3DE /* MSMTPlaybackController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSMTPlaybackController.h; sourceTree = "<group>"; };
+		0185EEB32A402FB1002CF3DE /* MSRotationManager_iOS_16_Later.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSRotationManager_iOS_16_Later.h; sourceTree = "<group>"; };
+		0185EEB42A402FB1002CF3DE /* MSPlaybackObservation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSPlaybackObservation.m; sourceTree = "<group>"; };
+		0185EEB52A402FB1002CF3DE /* MSExecuteCodeLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSExecuteCodeLayerView.h; sourceTree = "<group>"; };
+		0185EEB62A402FB1002CF3DE /* MSPlumeResourcePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSPlumeResourcePrefetcher.h; sourceTree = "<group>"; };
+		0185EEB72A402FB1002CF3DE /* MSBornPlumeConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSBornPlumeConst.m; sourceTree = "<group>"; };
+		0185EEB82A402FB1002CF3DE /* UIViewController+MSBornPlumeExtended.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MSBornPlumeExtended.h"; sourceTree = "<group>"; };
+		0185EEB92A402FB1002CF3DE /* UIView+MSAnimationAdded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MSAnimationAdded.m"; sourceTree = "<group>"; };
+		0185EEBA2A402FB1002CF3DE /* MSControlLayerAppearManagerDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSControlLayerAppearManagerDefines.h; sourceTree = "<group>"; };
+		0185EEBB2A402FB1002CF3DE /* MSPlumePlayStatusDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSPlumePlayStatusDefines.h; sourceTree = "<group>"; };
+		0185EEBC2A402FB1002CF3DE /* MSPlumeURLAssetPrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSPlumeURLAssetPrefetcher.h; sourceTree = "<group>"; };
+		0185EEBD2A402FB1002CF3DE /* MSReachabilityDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSReachabilityDefines.h; sourceTree = "<group>"; };
+		0185EEBE2A402FB1002CF3DE /* MSControlLayerSwitcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSControlLayerSwitcher.h; sourceTree = "<group>"; };
+		0185EEBF2A402FB1002CF3DE /* MSFlipTransitionManagerDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSFlipTransitionManagerDefines.h; sourceTree = "<group>"; };
+		0185EEC02A402FB1002CF3DE /* MSDeviceVolumeAndBrightnessController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSDeviceVolumeAndBrightnessController.m; sourceTree = "<group>"; };
+		0185EEC12A402FB1002CF3DE /* MSItemTags.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSItemTags.m; sourceTree = "<group>"; };
+		0185EEC22A402FB1002CF3DE /* MSRunLoopTaskQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSRunLoopTaskQueue.h; sourceTree = "<group>"; };
+		0185EEC32A402FB1002CF3DE /* AVAsset+MSResourceExport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AVAsset+MSResourceExport.h"; sourceTree = "<group>"; };
+		0185EEC42A402FB1002CF3DE /* NSTimer+MSAssetAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+MSAssetAdd.h"; sourceTree = "<group>"; };
+		0185EEC52A402FB1002CF3DE /* MSTaskQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTaskQueue.m; sourceTree = "<group>"; };
+		0185EEC62A402FB1002CF3DE /* MSRotationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSRotationManager.m; sourceTree = "<group>"; };
+		0185EEC72A402FB1002CF3DE /* MSRotationFullscreenNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSRotationFullscreenNavigationController.m; sourceTree = "<group>"; };
+		0185EEC82A402FB1002CF3DE /* MSResourcePlaybackController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSResourcePlaybackController.h; sourceTree = "<group>"; };
+		0185EEC92A402FB1002CF3DE /* MSButtonProgressSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSButtonProgressSlider.m; sourceTree = "<group>"; };
+		0185EECA2A402FB1002CF3DE /* MSControlLayerIdentifiers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSControlLayerIdentifiers.m; sourceTree = "<group>"; };
+		0185EECB2A402FB1002CF3DE /* MSDeviceVolumeAndBrightnessControllerDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSDeviceVolumeAndBrightnessControllerDefines.h; sourceTree = "<group>"; };
+		0185EECC2A402FB1002CF3DE /* MSPlumePresentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSPlumePresentView.m; sourceTree = "<group>"; };
+		0185EECD2A402FB1002CF3DE /* MSExecuteCodeLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSExecuteCodeLoader.m; sourceTree = "<group>"; };
+		0185EECE2A402FB1002CF3DE /* MSPlumeControlMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSPlumeControlMaskView.m; sourceTree = "<group>"; };
+		0185EECF2A402FB1002CF3DE /* MSTimerControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTimerControl.h; sourceTree = "<group>"; };
+		0185EED02A402FB1002CF3DE /* MSPlumeResource+MSControlAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MSPlumeResource+MSControlAdd.h"; sourceTree = "<group>"; };
+		0185EED12A402FB1002CF3DE /* MSPlumeResourceLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSPlumeResourceLoader.m; sourceTree = "<group>"; };
+		0185EED22A402FB1002CF3DE /* MSPlumeResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSPlumeResource.h; sourceTree = "<group>"; };
+		0185EED32A402FB1002CF3DE /* MSEdgeControlButtonItemAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSEdgeControlButtonItemAdapter.m; sourceTree = "<group>"; };
+		0185EED42A402FB1002CF3DE /* MSPresentationQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSPresentationQueue.m; sourceTree = "<group>"; };
+		0185EED52A402FB1002CF3DE /* MSSubtitleItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSubtitleItem.h; sourceTree = "<group>"; };
+		0185EED62A402FB1002CF3DE /* MSPlumeRegistrar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSPlumeRegistrar.h; sourceTree = "<group>"; };
+		0185EED72A402FB1002CF3DE /* MSLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSLoadingView.m; sourceTree = "<group>"; };
+		0185EED82A402FB1002CF3DE /* MSBornPlumeResourceLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSBornPlumeResourceLoader.h; sourceTree = "<group>"; };
+		0185EED92A402FB1002CF3DE /* MSQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSQueue.h; sourceTree = "<group>"; };
+		0185EEDA2A402FB1002CF3DE /* MSRotationFullscreenWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSRotationFullscreenWindow.m; sourceTree = "<group>"; };
+		0185EEDB2A402FB1002CF3DE /* MSControlLayerAppearStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSControlLayerAppearStateManager.h; sourceTree = "<group>"; };
+		0185EEDC2A402FB1002CF3DE /* MSFullscreenModeStatusBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSFullscreenModeStatusBar.h; sourceTree = "<group>"; };
+		0185EEDD2A402FB1002CF3DE /* MSRotationManager_iOS_9_15.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSRotationManager_iOS_9_15.h; sourceTree = "<group>"; };
+		0185EEDE2A402FB1002CF3DE /* MSLoadFailedControlLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSLoadFailedControlLayer.m; sourceTree = "<group>"; };
+		0185EEDF2A402FB1002CF3DE /* MSEdgeControlButtonItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSEdgeControlButtonItemView.h; sourceTree = "<group>"; };
+		0185EEE02A402FB1002CF3DE /* MSProgressSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSProgressSlider.h; sourceTree = "<group>"; };
+		0185EEE12A402FB1002CF3DE /* MSRotationObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSRotationObserver.m; sourceTree = "<group>"; };
+		0185EEE22A402FB1002CF3DE /* MSSpeedupPlaybackPopupViewDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSpeedupPlaybackPopupViewDefines.h; sourceTree = "<group>"; };
+		0185EEE32A402FB1002CF3DE /* MSUTUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSUTUtils.m; sourceTree = "<group>"; };
+		0185EEE42A402FB1002CF3DE /* MSNotReachableControlLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSNotReachableControlLayer.m; sourceTree = "<group>"; };
+		0185EEE52A402FB1002CF3DE /* MSPlumeLocalizedStringKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSPlumeLocalizedStringKeys.h; sourceTree = "<group>"; };
+		0185EEE62A402FB1002CF3DE /* MSScrollingTextMarqueeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSScrollingTextMarqueeView.h; sourceTree = "<group>"; };
+		0185EEE72A402FB1002CF3DE /* MSRotationDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSRotationDefines.m; sourceTree = "<group>"; };
+		0185EEE82A402FB1002CF3DE /* UIView+MSBornPlumeExtended.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MSBornPlumeExtended.h"; sourceTree = "<group>"; };
+		0185EEE92A402FB1002CF3DE /* MSEdgeControlButtonItemAdapterLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSEdgeControlButtonItemAdapterLayout.h; sourceTree = "<group>"; };
+		0185EEEA2A402FB1002CF3DE /* MSDraggingObservation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSDraggingObservation.m; sourceTree = "<group>"; };
+		0185EEEB2A402FB1002CF3DE /* MSDeviceVolumeAndBrightness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSDeviceVolumeAndBrightness.h; sourceTree = "<group>"; };
+		0185EEEC2A402FB1002CF3DE /* MSBornPlume.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSBornPlume.h; sourceTree = "<group>"; };
+		0185EEED2A402FB1002CF3DE /* MSPlumePlaybackControllerDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSPlumePlaybackControllerDefines.h; sourceTree = "<group>"; };
+		0185EEEE2A402FB1002CF3DE /* MSReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSReachability.m; sourceTree = "<group>"; };
+		0185EEEF2A402FB1002CF3DE /* CALayer+MSBornPlumeExtended.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+MSBornPlumeExtended.m"; sourceTree = "<group>"; };
+		0185EEF02A402FB1002CF3DE /* NSObject+MSObserverHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MSObserverHelper.m"; sourceTree = "<group>"; };
+		0185EEF12A402FB1002CF3DE /* MSRotationFullscreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSRotationFullscreenViewController.m; sourceTree = "<group>"; };
+		0185EEF22A402FB1002CF3DE /* MSFitOnScreenManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSFitOnScreenManager.h; sourceTree = "<group>"; };
+		0185EEF32A402FB1002CF3DE /* MSDeviceVolumeAndBrightnessTargetViewContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSDeviceVolumeAndBrightnessTargetViewContext.h; sourceTree = "<group>"; };
+		0185EEF42A402FB1002CF3DE /* MSUTAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSUTAttributes.h; sourceTree = "<group>"; };
+		0185EEF52A402FB1002CF3DE /* MSPlumeURLAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSPlumeURLAsset.h; sourceTree = "<group>"; };
+		0185EEF62A402FB1002CF3DE /* MSEdgeControlLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSEdgeControlLayer.m; sourceTree = "<group>"; };
+		0185EEF72A402FB1002CF3DE /* MSSpeedupPlaybackPopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSpeedupPlaybackPopupView.h; sourceTree = "<group>"; };
+		0185EEF82A402FB1002CF3DE /* MSPlumeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSPlumeModel.m; sourceTree = "<group>"; };
+		0185EEF92A402FB1002CF3DE /* MSSubtitlePopupControllerDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSubtitlePopupControllerDefines.h; sourceTree = "<group>"; };
+		0185EEFA2A402FB1002CF3DE /* MSAttributesFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAttributesFactory.h; sourceTree = "<group>"; };
+		0185EEFB2A402FB1002CF3DE /* MSFullscreenModeStatusBarDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSFullscreenModeStatusBarDefines.h; sourceTree = "<group>"; };
+		0185EEFC2A402FB1002CF3DE /* MSPlume.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSPlume.m; sourceTree = "<group>"; };
+		0185EEFD2A402FB1002CF3DE /* MSPlumeConfigurations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSPlumeConfigurations.m; sourceTree = "<group>"; };
+		0185EEFE2A402FB1002CF3DE /* MSUTRangeHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSUTRangeHandler.m; sourceTree = "<group>"; };
+		0185EEFF2A402FB1002CF3DE /* MSUTRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSUTRecorder.m; sourceTree = "<group>"; };
+		0185EF002A402FB1002CF3DE /* MSUIKitAttributesDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSUIKitAttributesDefines.h; sourceTree = "<group>"; };
+		0185EF012A402FB1002CF3DE /* MSLoadingViewDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSLoadingViewDefines.h; sourceTree = "<group>"; };
+		0185EF022A402FB1002CF3DE /* MSUTRegexHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSUTRegexHandler.m; sourceTree = "<group>"; };
+		0185EF032A402FB1002CF3DE /* MSViewControllerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSViewControllerManager.m; sourceTree = "<group>"; };
+		0185EF042A402FB1002CF3DE /* MSGestureControllerDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSGestureControllerDefines.h; sourceTree = "<group>"; };
+		0185EF052A402FB1002CF3DE /* MSPlumeControlLayerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSPlumeControlLayerProtocol.h; sourceTree = "<group>"; };
+		0185EF062A402FB1002CF3DE /* MSFlipTransitionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSFlipTransitionManager.m; sourceTree = "<group>"; };
+		0185EF072A402FB1002CF3DE /* MSCharmView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCharmView.m; sourceTree = "<group>"; };
+		0185EF082A402FB1002CF3DE /* MSDraggingProgressPopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSDraggingProgressPopupView.m; sourceTree = "<group>"; };
+		0185EF092A402FB1002CF3DE /* MSExecuteCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSExecuteCode.h; sourceTree = "<group>"; };
+		0185EF0A2A402FB1002CF3DE /* MSUIKitTextMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSUIKitTextMaker.m; sourceTree = "<group>"; };
+		0185EF0B2A402FB1002CF3DE /* MSEdgeControlButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSEdgeControlButtonItem.h; sourceTree = "<group>"; };
+		0185EF0C2A402FB1002CF3DE /* MSPlumeResource+MSResourcePlaybackAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MSPlumeResource+MSResourcePlaybackAdd.m"; sourceTree = "<group>"; };
+		0185EF0D2A402FB1002CF3DE /* MSEdgeControlLayerAdapters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSEdgeControlLayerAdapters.h; sourceTree = "<group>"; };
+		0185EF0E2A402FB1002CF3DE /* MSRotationManagerDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSRotationManagerDefines.h; sourceTree = "<group>"; };
+		0185EF0F2A402FB1002CF3DE /* MSCommonProgressSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCommonProgressSlider.h; sourceTree = "<group>"; };
+		0185EF102A402FB1002CF3DE /* MSMoreSettingControlLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSMoreSettingControlLayer.m; sourceTree = "<group>"; };
+		0185EF112A402FB1002CF3DE /* NSAttributedString+MSMake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+MSMake.m"; sourceTree = "<group>"; };
+		0185EF122A402FB1002CF3DE /* NSString+MSBornPlumeExtended.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MSBornPlumeExtended.m"; sourceTree = "<group>"; };
+		0185EF132A402FB1002CF3DE /* MSSubtitlePopupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSubtitlePopupController.m; sourceTree = "<group>"; };
+		0185EF142A402FB1002CF3DE /* MSSubtitleItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSubtitleItem.m; sourceTree = "<group>"; };
+		0185EF152A402FB1002CF3DE /* MSPlumeRegistrar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSPlumeRegistrar.m; sourceTree = "<group>"; };
+		0185EF162A402FB1002CF3DE /* MSPresentationQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSPresentationQueue.h; sourceTree = "<group>"; };
+		0185EF172A402FB1002CF3DE /* MSEdgeControlButtonItemAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSEdgeControlButtonItemAdapter.h; sourceTree = "<group>"; };
+		0185EF182A402FB1002CF3DE /* MSPlumeResourceLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSPlumeResourceLoader.h; sourceTree = "<group>"; };
+		0185EF192A402FB1002CF3DE /* MSPlumeResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSPlumeResource.m; sourceTree = "<group>"; };
+		0185EF1A2A402FB1002CF3DE /* MSTimerControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTimerControl.m; sourceTree = "<group>"; };
+		0185EF1B2A402FB1002CF3DE /* MSPlumeResource+MSControlAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MSPlumeResource+MSControlAdd.m"; sourceTree = "<group>"; };
+		0185EF1C2A402FB1002CF3DE /* MSPlumePresentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSPlumePresentView.h; sourceTree = "<group>"; };
+		0185EF1D2A402FB1002CF3DE /* MSExecuteCodeLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSExecuteCodeLoader.h; sourceTree = "<group>"; };
+		0185EF1E2A402FB1002CF3DE /* MSPlumeControlMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSPlumeControlMaskView.h; sourceTree = "<group>"; };
+		0185EF1F2A402FB1002CF3DE /* MSResourcePlaybackController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSResourcePlaybackController.m; sourceTree = "<group>"; };
+		0185EF202A402FB1002CF3DE /* MSButtonProgressSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSButtonProgressSlider.h; sourceTree = "<group>"; };
+		0185EF212A402FB1002CF3DE /* MSControlLayerIdentifiers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSControlLayerIdentifiers.h; sourceTree = "<group>"; };
+		0185EF222A402FB1002CF3DE /* NSTimer+MSAssetAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+MSAssetAdd.m"; sourceTree = "<group>"; };
+		0185EF232A402FB1002CF3DE /* MSRotationFullscreenNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSRotationFullscreenNavigationController.h; sourceTree = "<group>"; };
+		0185EF242A402FB1002CF3DE /* MSRotationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSRotationManager.h; sourceTree = "<group>"; };
+		0185EF252A402FB1002CF3DE /* MSTaskQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTaskQueue.h; sourceTree = "<group>"; };
+		0185EF262A402FB1002CF3DE /* MSItemTags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSItemTags.h; sourceTree = "<group>"; };
+		0185EF272A402FB1002CF3DE /* MSRunLoopTaskQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSRunLoopTaskQueue.m; sourceTree = "<group>"; };
+		0185EF282A402FB1002CF3DE /* AVAsset+MSResourceExport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AVAsset+MSResourceExport.m"; sourceTree = "<group>"; };
+		0185EF292A402FB1002CF3DE /* MSControlLayerSwitcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSControlLayerSwitcher.m; sourceTree = "<group>"; };
+		0185EF2A2A402FB1002CF3DE /* MSDeviceVolumeAndBrightnessController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSDeviceVolumeAndBrightnessController.h; sourceTree = "<group>"; };
+		0185EF2B2A402FB1002CF3DE /* MSRotationManagerInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSRotationManagerInternal.h; sourceTree = "<group>"; };
+		0185EF2C2A402FB1002CF3DE /* MSPlumeURLAssetPrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSPlumeURLAssetPrefetcher.m; sourceTree = "<group>"; };
+		0185EF2D2A402FB1002CF3DE /* MSPlumeResourcePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSPlumeResourcePrefetcher.m; sourceTree = "<group>"; };
+		0185EF2E2A402FB1002CF3DE /* UIView+MSAnimationAdded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MSAnimationAdded.h"; sourceTree = "<group>"; };
+		0185EF2F2A402FB1002CF3DE /* UIViewController+MSBornPlumeExtended.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MSBornPlumeExtended.m"; sourceTree = "<group>"; };
+		0185EF302A402FB1002CF3DE /* MSBornPlumeConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSBornPlumeConst.h; sourceTree = "<group>"; };
+		0185EF312A402FB1002CF3DE /* MSPlaybackObservation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSPlaybackObservation.h; sourceTree = "<group>"; };
+		0185EF322A402FB1002CF3DE /* MSExecuteCodeLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSExecuteCodeLayerView.m; sourceTree = "<group>"; };
+		0185EF332A402FB1002CF3DE /* MSRotationManager_iOS_16_Later.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSRotationManager_iOS_16_Later.m; sourceTree = "<group>"; };
+		0185EF342A402FB1002CF3DE /* MSFitOnScreenManagerDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSFitOnScreenManagerDefines.h; sourceTree = "<group>"; };
+		0185EF352A402FB1002CF3DE /* MSMTPlaybackController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSMTPlaybackController.m; sourceTree = "<group>"; };
+		0185EF362A402FB1002CF3DE /* MSPlumeResource+MSSubtitlesAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MSPlumeResource+MSSubtitlesAdd.m"; sourceTree = "<group>"; };
+		0185EF372A402FB1002CF3DE /* MSBornPlume.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSBornPlume.m; sourceTree = "<group>"; };
+		0185EF382A402FB1002CF3DE /* MSReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSReachability.h; sourceTree = "<group>"; };
+		0185EF392A402FB1002CF3DE /* MSDeviceVolumeAndBrightness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSDeviceVolumeAndBrightness.m; sourceTree = "<group>"; };
+		0185EF3A2A402FB1002CF3DE /* MSEdgeControlButtonItemAdapterLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSEdgeControlButtonItemAdapterLayout.m; sourceTree = "<group>"; };
+		0185EF3B2A402FB1002CF3DE /* MSDraggingObservation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSDraggingObservation.h; sourceTree = "<group>"; };
+		0185EF3C2A402FB1002CF3DE /* MSRotationDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSRotationDefines.h; sourceTree = "<group>"; };
+		0185EF3D2A402FB1002CF3DE /* UIView+MSBornPlumeExtended.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MSBornPlumeExtended.m"; sourceTree = "<group>"; };
+		0185EF3E2A402FB1002CF3DE /* MSPlumeLocalizedStringKeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSPlumeLocalizedStringKeys.m; sourceTree = "<group>"; };
+		0185EF3F2A402FB1002CF3DE /* MSScrollingTextMarqueeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSScrollingTextMarqueeView.m; sourceTree = "<group>"; };
+		0185EF402A402FB1002CF3DE /* MSUTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSUTUtils.h; sourceTree = "<group>"; };
+		0185EF412A402FB1002CF3DE /* MSNotReachableControlLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSNotReachableControlLayer.h; sourceTree = "<group>"; };
+		0185EF422A402FB1002CF3DE /* MSRotationObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSRotationObserver.h; sourceTree = "<group>"; };
+		0185EF432A402FB1002CF3DE /* MSProgressSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSProgressSlider.m; sourceTree = "<group>"; };
+		0185EF442A402FB1002CF3DE /* MSEdgeControlButtonItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSEdgeControlButtonItemView.m; sourceTree = "<group>"; };
+		0185EF452A402FB1002CF3DE /* MSLoadFailedControlLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSLoadFailedControlLayer.h; sourceTree = "<group>"; };
+		0185EF462A402FB1002CF3DE /* MSControlLayerAppearStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSControlLayerAppearStateManager.m; sourceTree = "<group>"; };
+		0185EF472A402FB2002CF3DE /* MSFullscreenModeStatusBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSFullscreenModeStatusBar.m; sourceTree = "<group>"; };
+		0185EF482A402FB2002CF3DE /* MSRotationManager_iOS_9_15.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSRotationManager_iOS_9_15.m; sourceTree = "<group>"; };
+		0185EF492A402FB2002CF3DE /* MSControlLayerDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSControlLayerDefines.h; sourceTree = "<group>"; };
+		0185EF4A2A402FB2002CF3DE /* MSQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSQueue.m; sourceTree = "<group>"; };
+		0185EF4B2A402FB2002CF3DE /* MSRotationFullscreenWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSRotationFullscreenWindow.h; sourceTree = "<group>"; };
+		0185EF4C2A402FB2002CF3DE /* MSBornPlumeResourceLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSBornPlumeResourceLoader.m; sourceTree = "<group>"; };
+		0185EF4D2A402FB2002CF3DE /* MSLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSLoadingView.h; sourceTree = "<group>"; };
+		0185EF4F2A402FB2002CF3DE /* MSBornPlumeResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MSBornPlumeResources.bundle; sourceTree = "<group>"; };
+		0185EF502A402FB2002CF3DE /* MSPlume.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MSPlume.bundle; sourceTree = "<group>"; };
+		0185EFA72A4035D4002CF3DE /* MSPlumeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSPlumeHeader.h; sourceTree = "<group>"; };
+		8073D5E6E020943DE84303D5 /* Pods-MSBornPlume.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSBornPlume.release.xcconfig"; path = "Target Support Files/Pods-MSBornPlume/Pods-MSBornPlume.release.xcconfig"; sourceTree = "<group>"; };
+		B6E247F2196975803AC36C8A /* Pods_MSBornPlume.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSBornPlume.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F318EADE7A4580799991EAFA /* Pods-MSBornPlume.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSBornPlume.debug.xcconfig"; path = "Target Support Files/Pods-MSBornPlume/Pods-MSBornPlume.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0185EE6C2A402EE8002CF3DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6090EF00F9EA11A06AFF2595 /* Pods_MSBornPlume.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0185EE662A402EE8002CF3DE = {
+			isa = PBXGroup;
+			children = (
+				0185EE712A402EE8002CF3DE /* MSBornPlume */,
+				0185EE702A402EE8002CF3DE /* Products */,
+				EAD92B59234C44D09420161F /* Pods */,
+				6932A8017DEF42824035F83E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0185EE702A402EE8002CF3DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0185EE6F2A402EE8002CF3DE /* MSBornPlume.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0185EE712A402EE8002CF3DE /* MSBornPlume */ = {
+			isa = PBXGroup;
+			children = (
+				0185EE8C2A402FB1002CF3DE /* Classes */,
+				0185EF4E2A402FB2002CF3DE /* Bundle */,
+				0185EE722A402EE8002CF3DE /* AppDelegate.h */,
+				0185EE732A402EE8002CF3DE /* AppDelegate.m */,
+				0185EE782A402EE8002CF3DE /* ViewController.h */,
+				0185EE792A402EE8002CF3DE /* ViewController.m */,
+				0185EE7B2A402EE8002CF3DE /* Main.storyboard */,
+				0185EE7E2A402EEA002CF3DE /* Assets.xcassets */,
+				0185EE802A402EEA002CF3DE /* LaunchScreen.storyboard */,
+				0185EE832A402EEA002CF3DE /* Info.plist */,
+				0185EE842A402EEA002CF3DE /* main.m */,
+			);
+			path = MSBornPlume;
+			sourceTree = "<group>";
+		};
+		0185EE8C2A402FB1002CF3DE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0185EEC32A402FB1002CF3DE /* AVAsset+MSResourceExport.h */,
+				0185EF282A402FB1002CF3DE /* AVAsset+MSResourceExport.m */,
+				0185EEA12A402FB1002CF3DE /* CALayer+MSBornPlumeExtended.h */,
+				0185EEEF2A402FB1002CF3DE /* CALayer+MSBornPlumeExtended.m */,
+				0185EEFA2A402FB1002CF3DE /* MSAttributesFactory.h */,
+				0185EEEC2A402FB1002CF3DE /* MSBornPlume.h */,
+				0185EF372A402FB1002CF3DE /* MSBornPlume.m */,
+				0185EF302A402FB1002CF3DE /* MSBornPlumeConst.h */,
+				0185EEB72A402FB1002CF3DE /* MSBornPlumeConst.m */,
+				0185EED82A402FB1002CF3DE /* MSBornPlumeResourceLoader.h */,
+				0185EF4C2A402FB2002CF3DE /* MSBornPlumeResourceLoader.m */,
+				0185EF202A402FB1002CF3DE /* MSButtonProgressSlider.h */,
+				0185EEC92A402FB1002CF3DE /* MSButtonProgressSlider.m */,
+				0185EEAD2A402FB1002CF3DE /* MSCharmView.h */,
+				0185EF072A402FB1002CF3DE /* MSCharmView.m */,
+				0185EEA82A402FB1002CF3DE /* MSCharmViewInternal.h */,
+				0185EF0F2A402FB1002CF3DE /* MSCommonProgressSlider.h */,
+				0185EEA62A402FB1002CF3DE /* MSCommonProgressSlider.m */,
+				0185EEBA2A402FB1002CF3DE /* MSControlLayerAppearManagerDefines.h */,
+				0185EEDB2A402FB1002CF3DE /* MSControlLayerAppearStateManager.h */,
+				0185EF462A402FB1002CF3DE /* MSControlLayerAppearStateManager.m */,
+				0185EF492A402FB2002CF3DE /* MSControlLayerDefines.h */,
+				0185EF212A402FB1002CF3DE /* MSControlLayerIdentifiers.h */,
+				0185EECA2A402FB1002CF3DE /* MSControlLayerIdentifiers.m */,
+				0185EEBE2A402FB1002CF3DE /* MSControlLayerSwitcher.h */,
+				0185EF292A402FB1002CF3DE /* MSControlLayerSwitcher.m */,
+				0185EEEB2A402FB1002CF3DE /* MSDeviceVolumeAndBrightness.h */,
+				0185EF392A402FB1002CF3DE /* MSDeviceVolumeAndBrightness.m */,
+				0185EF2A2A402FB1002CF3DE /* MSDeviceVolumeAndBrightnessController.h */,
+				0185EEC02A402FB1002CF3DE /* MSDeviceVolumeAndBrightnessController.m */,
+				0185EECB2A402FB1002CF3DE /* MSDeviceVolumeAndBrightnessControllerDefines.h */,
+				0185EEF32A402FB1002CF3DE /* MSDeviceVolumeAndBrightnessTargetViewContext.h */,
+				0185EE9D2A402FB1002CF3DE /* MSDeviceVolumeAndBrightnessTargetViewContext.m */,
+				0185EF3B2A402FB1002CF3DE /* MSDraggingObservation.h */,
+				0185EEEA2A402FB1002CF3DE /* MSDraggingObservation.m */,
+				0185EE902A402FB1002CF3DE /* MSDraggingObservationDefines.h */,
+				0185EEAE2A402FB1002CF3DE /* MSDraggingProgressPopupView.h */,
+				0185EF082A402FB1002CF3DE /* MSDraggingProgressPopupView.m */,
+				0185EE962A402FB1002CF3DE /* MSDraggingProgressPopupViewDefines.h */,
+				0185EF0B2A402FB1002CF3DE /* MSEdgeControlButtonItem.h */,
+				0185EEAC2A402FB1002CF3DE /* MSEdgeControlButtonItem.m */,
+				0185EF172A402FB1002CF3DE /* MSEdgeControlButtonItemAdapter.h */,
+				0185EED32A402FB1002CF3DE /* MSEdgeControlButtonItemAdapter.m */,
+				0185EEE92A402FB1002CF3DE /* MSEdgeControlButtonItemAdapterLayout.h */,
+				0185EF3A2A402FB1002CF3DE /* MSEdgeControlButtonItemAdapterLayout.m */,
+				0185EE9B2A402FB1002CF3DE /* MSEdgeControlButtonItemInternal.h */,
+				0185EEDF2A402FB1002CF3DE /* MSEdgeControlButtonItemView.h */,
+				0185EF442A402FB1002CF3DE /* MSEdgeControlButtonItemView.m */,
+				0185EE992A402FB1002CF3DE /* MSEdgeControlLayer.h */,
+				0185EEF62A402FB1002CF3DE /* MSEdgeControlLayer.m */,
+				0185EF0D2A402FB1002CF3DE /* MSEdgeControlLayerAdapters.h */,
+				0185EEAA2A402FB1002CF3DE /* MSEdgeControlLayerAdapters.m */,
+				0185EF092A402FB1002CF3DE /* MSExecuteCode.h */,
+				0185EEAF2A402FB1002CF3DE /* MSExecuteCode.m */,
+				0185EEB52A402FB1002CF3DE /* MSExecuteCodeLayerView.h */,
+				0185EF322A402FB1002CF3DE /* MSExecuteCodeLayerView.m */,
+				0185EF1D2A402FB1002CF3DE /* MSExecuteCodeLoader.h */,
+				0185EECD2A402FB1002CF3DE /* MSExecuteCodeLoader.m */,
+				0185EEF22A402FB1002CF3DE /* MSFitOnScreenManager.h */,
+				0185EE9E2A402FB1002CF3DE /* MSFitOnScreenManager.m */,
+				0185EF342A402FB1002CF3DE /* MSFitOnScreenManagerDefines.h */,
+				0185EEB02A402FB1002CF3DE /* MSFlipTransitionManager.h */,
+				0185EF062A402FB1002CF3DE /* MSFlipTransitionManager.m */,
+				0185EEBF2A402FB1002CF3DE /* MSFlipTransitionManagerDefines.h */,
+				0185EEDC2A402FB1002CF3DE /* MSFullscreenModeStatusBar.h */,
+				0185EF472A402FB2002CF3DE /* MSFullscreenModeStatusBar.m */,
+				0185EEFB2A402FB1002CF3DE /* MSFullscreenModeStatusBarDefines.h */,
+				0185EF042A402FB1002CF3DE /* MSGestureControllerDefines.h */,
+				0185EF262A402FB1002CF3DE /* MSItemTags.h */,
+				0185EEC12A402FB1002CF3DE /* MSItemTags.m */,
+				0185EF452A402FB1002CF3DE /* MSLoadFailedControlLayer.h */,
+				0185EEDE2A402FB1002CF3DE /* MSLoadFailedControlLayer.m */,
+				0185EF4D2A402FB2002CF3DE /* MSLoadingView.h */,
+				0185EED72A402FB1002CF3DE /* MSLoadingView.m */,
+				0185EF012A402FB1002CF3DE /* MSLoadingViewDefines.h */,
+				0185EEA52A402FB1002CF3DE /* MSMoreSettingControlLayer.h */,
+				0185EF102A402FB1002CF3DE /* MSMoreSettingControlLayer.m */,
+				0185EEB22A402FB1002CF3DE /* MSMTPlaybackController.h */,
+				0185EF352A402FB1002CF3DE /* MSMTPlaybackController.m */,
+				0185EF412A402FB1002CF3DE /* MSNotReachableControlLayer.h */,
+				0185EEE42A402FB1002CF3DE /* MSNotReachableControlLayer.m */,
+				0185EF312A402FB1002CF3DE /* MSPlaybackObservation.h */,
+				0185EEB42A402FB1002CF3DE /* MSPlaybackObservation.m */,
+				0185EE942A402FB1002CF3DE /* MSPlume.h */,
+				0185EEFC2A402FB1002CF3DE /* MSPlume.m */,
+				0185EE912A402FB1002CF3DE /* MSPlumeConfigurations.h */,
+				0185EEFD2A402FB1002CF3DE /* MSPlumeConfigurations.m */,
+				0185EF052A402FB1002CF3DE /* MSPlumeControlLayerProtocol.h */,
+				0185EF1E2A402FB1002CF3DE /* MSPlumeControlMaskView.h */,
+				0185EECE2A402FB1002CF3DE /* MSPlumeControlMaskView.m */,
+				0185EEE52A402FB1002CF3DE /* MSPlumeLocalizedStringKeys.h */,
+				0185EF3E2A402FB1002CF3DE /* MSPlumeLocalizedStringKeys.m */,
+				0185EE972A402FB1002CF3DE /* MSPlumeModel.h */,
+				0185EEF82A402FB1002CF3DE /* MSPlumeModel.m */,
+				0185EEED2A402FB1002CF3DE /* MSPlumePlaybackControllerDefines.h */,
+				0185EEBB2A402FB1002CF3DE /* MSPlumePlayStatusDefines.h */,
+				0185EF1C2A402FB1002CF3DE /* MSPlumePresentView.h */,
+				0185EECC2A402FB1002CF3DE /* MSPlumePresentView.m */,
+				0185EE952A402FB1002CF3DE /* MSPlumePresentViewDefines.h */,
+				0185EED62A402FB1002CF3DE /* MSPlumeRegistrar.h */,
+				0185EF152A402FB1002CF3DE /* MSPlumeRegistrar.m */,
+				0185EED22A402FB1002CF3DE /* MSPlumeResource.h */,
+				0185EF192A402FB1002CF3DE /* MSPlumeResource.m */,
+				0185EED02A402FB1002CF3DE /* MSPlumeResource+MSControlAdd.h */,
+				0185EF1B2A402FB1002CF3DE /* MSPlumeResource+MSControlAdd.m */,
+				0185EEA92A402FB1002CF3DE /* MSPlumeResource+MSResourcePlaybackAdd.h */,
+				0185EF0C2A402FB1002CF3DE /* MSPlumeResource+MSResourcePlaybackAdd.m */,
+				0185EEB12A402FB1002CF3DE /* MSPlumeResource+MSSubtitlesAdd.h */,
+				0185EF362A402FB1002CF3DE /* MSPlumeResource+MSSubtitlesAdd.m */,
+				0185EF182A402FB1002CF3DE /* MSPlumeResourceLoader.h */,
+				0185EED12A402FB1002CF3DE /* MSPlumeResourceLoader.m */,
+				0185EEB62A402FB1002CF3DE /* MSPlumeResourcePrefetcher.h */,
+				0185EF2D2A402FB1002CF3DE /* MSPlumeResourcePrefetcher.m */,
+				0185EEF52A402FB1002CF3DE /* MSPlumeURLAsset.h */,
+				0185EE9A2A402FB1002CF3DE /* MSPlumeURLAsset.m */,
+				0185EEBC2A402FB1002CF3DE /* MSPlumeURLAssetPrefetcher.h */,
+				0185EF2C2A402FB1002CF3DE /* MSPlumeURLAssetPrefetcher.m */,
+				0185EF162A402FB1002CF3DE /* MSPresentationQueue.h */,
+				0185EED42A402FB1002CF3DE /* MSPresentationQueue.m */,
+				0185EEE02A402FB1002CF3DE /* MSProgressSlider.h */,
+				0185EF432A402FB1002CF3DE /* MSProgressSlider.m */,
+				0185EED92A402FB1002CF3DE /* MSQueue.h */,
+				0185EF4A2A402FB2002CF3DE /* MSQueue.m */,
+				0185EF382A402FB1002CF3DE /* MSReachability.h */,
+				0185EEEE2A402FB1002CF3DE /* MSReachability.m */,
+				0185EEBD2A402FB1002CF3DE /* MSReachabilityDefines.h */,
+				0185EEC82A402FB1002CF3DE /* MSResourcePlaybackController.h */,
+				0185EF1F2A402FB1002CF3DE /* MSResourcePlaybackController.m */,
+				0185EF3C2A402FB1002CF3DE /* MSRotationDefines.h */,
+				0185EEE72A402FB1002CF3DE /* MSRotationDefines.m */,
+				0185EF232A402FB1002CF3DE /* MSRotationFullscreenNavigationController.h */,
+				0185EEC72A402FB1002CF3DE /* MSRotationFullscreenNavigationController.m */,
+				0185EE9F2A402FB1002CF3DE /* MSRotationFullscreenViewController.h */,
+				0185EEF12A402FB1002CF3DE /* MSRotationFullscreenViewController.m */,
+				0185EF4B2A402FB2002CF3DE /* MSRotationFullscreenWindow.h */,
+				0185EEDA2A402FB1002CF3DE /* MSRotationFullscreenWindow.m */,
+				0185EEDD2A402FB1002CF3DE /* MSRotationManager_iOS_9_15.h */,
+				0185EF482A402FB2002CF3DE /* MSRotationManager_iOS_9_15.m */,
+				0185EEB32A402FB1002CF3DE /* MSRotationManager_iOS_16_Later.h */,
+				0185EF332A402FB1002CF3DE /* MSRotationManager_iOS_16_Later.m */,
+				0185EF242A402FB1002CF3DE /* MSRotationManager.h */,
+				0185EEC62A402FB1002CF3DE /* MSRotationManager.m */,
+				0185EF0E2A402FB1002CF3DE /* MSRotationManagerDefines.h */,
+				0185EF2B2A402FB1002CF3DE /* MSRotationManagerInternal.h */,
+				0185EF422A402FB1002CF3DE /* MSRotationObserver.h */,
+				0185EEE12A402FB1002CF3DE /* MSRotationObserver.m */,
+				0185EEC22A402FB1002CF3DE /* MSRunLoopTaskQueue.h */,
+				0185EF272A402FB1002CF3DE /* MSRunLoopTaskQueue.m */,
+				0185EEE62A402FB1002CF3DE /* MSScrollingTextMarqueeView.h */,
+				0185EF3F2A402FB1002CF3DE /* MSScrollingTextMarqueeView.m */,
+				0185EEA72A402FB1002CF3DE /* MSScrollingTextMarqueeViewDefines.h */,
+				0185EEF72A402FB1002CF3DE /* MSSpeedupPlaybackPopupView.h */,
+				0185EE982A402FB1002CF3DE /* MSSpeedupPlaybackPopupView.m */,
+				0185EEE22A402FB1002CF3DE /* MSSpeedupPlaybackPopupViewDefines.h */,
+				0185EED52A402FB1002CF3DE /* MSSubtitleItem.h */,
+				0185EF142A402FB1002CF3DE /* MSSubtitleItem.m */,
+				0185EEA32A402FB1002CF3DE /* MSSubtitlePopupController.h */,
+				0185EF132A402FB1002CF3DE /* MSSubtitlePopupController.m */,
+				0185EEF92A402FB1002CF3DE /* MSSubtitlePopupControllerDefines.h */,
+				0185EF252A402FB1002CF3DE /* MSTaskQueue.h */,
+				0185EEC52A402FB1002CF3DE /* MSTaskQueue.m */,
+				0185EECF2A402FB1002CF3DE /* MSTimerControl.h */,
+				0185EF1A2A402FB1002CF3DE /* MSTimerControl.m */,
+				0185EF002A402FB1002CF3DE /* MSUIKitAttributesDefines.h */,
+				0185EEAB2A402FB1002CF3DE /* MSUIKitTextMaker.h */,
+				0185EF0A2A402FB1002CF3DE /* MSUIKitTextMaker.m */,
+				0185EEF42A402FB1002CF3DE /* MSUTAttributes.h */,
+				0185EE9C2A402FB1002CF3DE /* MSUTAttributes.m */,
+				0185EE932A402FB1002CF3DE /* MSUTRangeHandler.h */,
+				0185EEFE2A402FB1002CF3DE /* MSUTRangeHandler.m */,
+				0185EE8F2A402FB1002CF3DE /* MSUTRecorder.h */,
+				0185EEFF2A402FB1002CF3DE /* MSUTRecorder.m */,
+				0185EE8E2A402FB1002CF3DE /* MSUTRegexHandler.h */,
+				0185EF022A402FB1002CF3DE /* MSUTRegexHandler.m */,
+				0185EF402A402FB1002CF3DE /* MSUTUtils.h */,
+				0185EEE32A402FB1002CF3DE /* MSUTUtils.m */,
+				0185EE8D2A402FB1002CF3DE /* MSViewControllerManager.h */,
+				0185EF032A402FB1002CF3DE /* MSViewControllerManager.m */,
+				0185EE922A402FB1002CF3DE /* MSViewControllerManagerDefines.h */,
+				0185EEA42A402FB1002CF3DE /* NSAttributedString+MSMake.h */,
+				0185EF112A402FB1002CF3DE /* NSAttributedString+MSMake.m */,
+				0185EEA02A402FB1002CF3DE /* NSObject+MSObserverHelper.h */,
+				0185EEF02A402FB1002CF3DE /* NSObject+MSObserverHelper.m */,
+				0185EEA22A402FB1002CF3DE /* NSString+MSBornPlumeExtended.h */,
+				0185EF122A402FB1002CF3DE /* NSString+MSBornPlumeExtended.m */,
+				0185EEC42A402FB1002CF3DE /* NSTimer+MSAssetAdd.h */,
+				0185EF222A402FB1002CF3DE /* NSTimer+MSAssetAdd.m */,
+				0185EF2E2A402FB1002CF3DE /* UIView+MSAnimationAdded.h */,
+				0185EEB92A402FB1002CF3DE /* UIView+MSAnimationAdded.m */,
+				0185EEE82A402FB1002CF3DE /* UIView+MSBornPlumeExtended.h */,
+				0185EF3D2A402FB1002CF3DE /* UIView+MSBornPlumeExtended.m */,
+				0185EEB82A402FB1002CF3DE /* UIViewController+MSBornPlumeExtended.h */,
+				0185EF2F2A402FB1002CF3DE /* UIViewController+MSBornPlumeExtended.m */,
+				0185EFA72A4035D4002CF3DE /* MSPlumeHeader.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0185EF4E2A402FB2002CF3DE /* Bundle */ = {
+			isa = PBXGroup;
+			children = (
+				0185EF4F2A402FB2002CF3DE /* MSBornPlumeResources.bundle */,
+				0185EF502A402FB2002CF3DE /* MSPlume.bundle */,
+			);
+			path = Bundle;
+			sourceTree = "<group>";
+		};
+		6932A8017DEF42824035F83E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6E247F2196975803AC36C8A /* Pods_MSBornPlume.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAD92B59234C44D09420161F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F318EADE7A4580799991EAFA /* Pods-MSBornPlume.debug.xcconfig */,
+				8073D5E6E020943DE84303D5 /* Pods-MSBornPlume.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0185EE6E2A402EE8002CF3DE /* MSBornPlume */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0185EE882A402EEA002CF3DE /* Build configuration list for PBXNativeTarget "MSBornPlume" */;
+			buildPhases = (
+				865E1F89FE07BB36860690E9 /* [CP] Check Pods Manifest.lock */,
+				0185EE6B2A402EE8002CF3DE /* Sources */,
+				0185EE6C2A402EE8002CF3DE /* Frameworks */,
+				0185EE6D2A402EE8002CF3DE /* Resources */,
+				B2EA852093B867B72F4D4829 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSBornPlume;
+			productName = MSBornPlume;
+			productReference = 0185EE6F2A402EE8002CF3DE /* MSBornPlume.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0185EE672A402EE8002CF3DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0185EE6E2A402EE8002CF3DE = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 0185EE6A2A402EE8002CF3DE /* Build configuration list for PBXProject "MSBornPlume" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0185EE662A402EE8002CF3DE;
+			productRefGroup = 0185EE702A402EE8002CF3DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0185EE6E2A402EE8002CF3DE /* MSBornPlume */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0185EE6D2A402EE8002CF3DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0185EE822A402EEA002CF3DE /* LaunchScreen.storyboard in Resources */,
+				0185EFA62A402FB2002CF3DE /* MSPlume.bundle in Resources */,
+				0185EE7F2A402EEA002CF3DE /* Assets.xcassets in Resources */,
+				0185EFA52A402FB2002CF3DE /* MSBornPlumeResources.bundle in Resources */,
+				0185EE7D2A402EE8002CF3DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		865E1F89FE07BB36860690E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MSBornPlume-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2EA852093B867B72F4D4829 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MSBornPlume/Pods-MSBornPlume-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MSBornPlume/Pods-MSBornPlume-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MSBornPlume/Pods-MSBornPlume-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0185EE6B2A402EE8002CF3DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0185EF5C2A402FB2002CF3DE /* UIView+MSAnimationAdded.m in Sources */,
+				0185EF602A402FB2002CF3DE /* MSRotationManager.m in Sources */,
+				0185EF572A402FB2002CF3DE /* MSEdgeControlLayerAdapters.m in Sources */,
+				0185EFA32A402FB2002CF3DE /* MSQueue.m in Sources */,
+				0185EE7A2A402EE8002CF3DE /* ViewController.m in Sources */,
+				0185EF792A402FB2002CF3DE /* MSPlumeConfigurations.m in Sources */,
+				0185EF862A402FB2002CF3DE /* MSSubtitlePopupController.m in Sources */,
+				0185EF8A2A402FB2002CF3DE /* MSTimerControl.m in Sources */,
+				0185EF9E2A402FB2002CF3DE /* MSProgressSlider.m in Sources */,
+				0185EF8C2A402FB2002CF3DE /* MSResourcePlaybackController.m in Sources */,
+				0185EF612A402FB2002CF3DE /* MSRotationFullscreenNavigationController.m in Sources */,
+				0185EF742A402FB2002CF3DE /* NSObject+MSObserverHelper.m in Sources */,
+				0185EF6A2A402FB2002CF3DE /* MSLoadingView.m in Sources */,
+				0185EF692A402FB2002CF3DE /* MSPresentationQueue.m in Sources */,
+				0185EFA22A402FB2002CF3DE /* MSRotationManager_iOS_9_15.m in Sources */,
+				0185EF6D2A402FB2002CF3DE /* MSRotationObserver.m in Sources */,
+				0185EF892A402FB2002CF3DE /* MSPlumeResource.m in Sources */,
+				0185EE742A402EE8002CF3DE /* AppDelegate.m in Sources */,
+				0185EE852A402EEA002CF3DE /* main.m in Sources */,
+				0185EF992A402FB2002CF3DE /* MSDeviceVolumeAndBrightness.m in Sources */,
+				0185EF812A402FB2002CF3DE /* MSUIKitTextMaker.m in Sources */,
+				0185EF9B2A402FB2002CF3DE /* UIView+MSBornPlumeExtended.m in Sources */,
+				0185EF802A402FB2002CF3DE /* MSDraggingProgressPopupView.m in Sources */,
+				0185EF5A2A402FB2002CF3DE /* MSPlaybackObservation.m in Sources */,
+				0185EF592A402FB2002CF3DE /* MSExecuteCode.m in Sources */,
+				0185EF8E2A402FB2002CF3DE /* MSRunLoopTaskQueue.m in Sources */,
+				0185EF622A402FB2002CF3DE /* MSButtonProgressSlider.m in Sources */,
+				0185EF852A402FB2002CF3DE /* NSString+MSBornPlumeExtended.m in Sources */,
+				0185EF882A402FB2002CF3DE /* MSPlumeRegistrar.m in Sources */,
+				0185EF632A402FB2002CF3DE /* MSControlLayerIdentifiers.m in Sources */,
+				0185EF9F2A402FB2002CF3DE /* MSEdgeControlButtonItemView.m in Sources */,
+				0185EF762A402FB2002CF3DE /* MSEdgeControlLayer.m in Sources */,
+				0185EF6E2A402FB2002CF3DE /* MSUTUtils.m in Sources */,
+				0185EFA12A402FB2002CF3DE /* MSFullscreenModeStatusBar.m in Sources */,
+				0185EF562A402FB2002CF3DE /* MSCommonProgressSlider.m in Sources */,
+				0185EF972A402FB2002CF3DE /* MSPlumeResource+MSSubtitlesAdd.m in Sources */,
+				0185EF532A402FB2002CF3DE /* MSUTAttributes.m in Sources */,
+				0185EF552A402FB2002CF3DE /* MSFitOnScreenManager.m in Sources */,
+				0185EFA02A402FB2002CF3DE /* MSControlLayerAppearStateManager.m in Sources */,
+				0185EF9C2A402FB2002CF3DE /* MSPlumeLocalizedStringKeys.m in Sources */,
+				0185EF722A402FB2002CF3DE /* MSReachability.m in Sources */,
+				0185EF7C2A402FB2002CF3DE /* MSUTRegexHandler.m in Sources */,
+				0185EFA42A402FB2002CF3DE /* MSBornPlumeResourceLoader.m in Sources */,
+				0185EF642A402FB2002CF3DE /* MSPlumePresentView.m in Sources */,
+				0185EF5D2A402FB2002CF3DE /* MSDeviceVolumeAndBrightnessController.m in Sources */,
+				0185EF512A402FB2002CF3DE /* MSSpeedupPlaybackPopupView.m in Sources */,
+				0185EF9A2A402FB2002CF3DE /* MSEdgeControlButtonItemAdapterLayout.m in Sources */,
+				0185EF8B2A402FB2002CF3DE /* MSPlumeResource+MSControlAdd.m in Sources */,
+				0185EF872A402FB2002CF3DE /* MSSubtitleItem.m in Sources */,
+				0185EF682A402FB2002CF3DE /* MSEdgeControlButtonItemAdapter.m in Sources */,
+				0185EF8D2A402FB2002CF3DE /* NSTimer+MSAssetAdd.m in Sources */,
+				0185EF962A402FB2002CF3DE /* MSMTPlaybackController.m in Sources */,
+				0185EF5F2A402FB2002CF3DE /* MSTaskQueue.m in Sources */,
+				0185EF752A402FB2002CF3DE /* MSRotationFullscreenViewController.m in Sources */,
+				0185EF522A402FB2002CF3DE /* MSPlumeURLAsset.m in Sources */,
+				0185EF5E2A402FB2002CF3DE /* MSItemTags.m in Sources */,
+				0185EF7B2A402FB2002CF3DE /* MSUTRecorder.m in Sources */,
+				0185EF822A402FB2002CF3DE /* MSPlumeResource+MSResourcePlaybackAdd.m in Sources */,
+				0185EF7F2A402FB2002CF3DE /* MSCharmView.m in Sources */,
+				0185EF7E2A402FB2002CF3DE /* MSFlipTransitionManager.m in Sources */,
+				0185EF7A2A402FB2002CF3DE /* MSUTRangeHandler.m in Sources */,
+				0185EF932A402FB2002CF3DE /* UIViewController+MSBornPlumeExtended.m in Sources */,
+				0185EF842A402FB2002CF3DE /* NSAttributedString+MSMake.m in Sources */,
+				0185EF712A402FB2002CF3DE /* MSDraggingObservation.m in Sources */,
+				0185EF982A402FB2002CF3DE /* MSBornPlume.m in Sources */,
+				0185EF662A402FB2002CF3DE /* MSPlumeControlMaskView.m in Sources */,
+				0185EF542A402FB2002CF3DE /* MSDeviceVolumeAndBrightnessTargetViewContext.m in Sources */,
+				0185EF6F2A402FB2002CF3DE /* MSNotReachableControlLayer.m in Sources */,
+				0185EF8F2A402FB2002CF3DE /* AVAsset+MSResourceExport.m in Sources */,
+				0185EF922A402FB2002CF3DE /* MSPlumeResourcePrefetcher.m in Sources */,
+				0185EF782A402FB2002CF3DE /* MSPlume.m in Sources */,
+				0185EF832A402FB2002CF3DE /* MSMoreSettingControlLayer.m in Sources */,
+				0185EF952A402FB2002CF3DE /* MSRotationManager_iOS_16_Later.m in Sources */,
+				0185EF6C2A402FB2002CF3DE /* MSLoadFailedControlLayer.m in Sources */,
+				0185EF672A402FB2002CF3DE /* MSPlumeResourceLoader.m in Sources */,
+				0185EF9D2A402FB2002CF3DE /* MSScrollingTextMarqueeView.m in Sources */,
+				0185EF652A402FB2002CF3DE /* MSExecuteCodeLoader.m in Sources */,
+				0185EF702A402FB2002CF3DE /* MSRotationDefines.m in Sources */,
+				0185EF5B2A402FB2002CF3DE /* MSBornPlumeConst.m in Sources */,
+				0185EF6B2A402FB2002CF3DE /* MSRotationFullscreenWindow.m in Sources */,
+				0185EF942A402FB2002CF3DE /* MSExecuteCodeLayerView.m in Sources */,
+				0185EF902A402FB2002CF3DE /* MSControlLayerSwitcher.m in Sources */,
+				0185EF772A402FB2002CF3DE /* MSPlumeModel.m in Sources */,
+				0185EF912A402FB2002CF3DE /* MSPlumeURLAssetPrefetcher.m in Sources */,
+				0185EF582A402FB2002CF3DE /* MSEdgeControlButtonItem.m in Sources */,
+				0185EF7D2A402FB2002CF3DE /* MSViewControllerManager.m in Sources */,
+				0185EF732A402FB2002CF3DE /* CALayer+MSBornPlumeExtended.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0185EE7B2A402EE8002CF3DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0185EE7C2A402EE8002CF3DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0185EE802A402EEA002CF3DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0185EE812A402EEA002CF3DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0185EE862A402EEA002CF3DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0185EE872A402EEA002CF3DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0185EE892A402EEA002CF3DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F318EADE7A4580799991EAFA /* Pods-MSBornPlume.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MSBornPlume/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MSBornPlume.www;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0185EE8A2A402EEA002CF3DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8073D5E6E020943DE84303D5 /* Pods-MSBornPlume.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MSBornPlume/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MSBornPlume.www;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0185EE6A2A402EE8002CF3DE /* Build configuration list for PBXProject "MSBornPlume" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0185EE862A402EEA002CF3DE /* Debug */,
+				0185EE872A402EEA002CF3DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0185EE882A402EEA002CF3DE /* Build configuration list for PBXNativeTarget "MSBornPlume" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0185EE892A402EEA002CF3DE /* Debug */,
+				0185EE8A2A402EEA002CF3DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0185EE672A402EE8002CF3DE /* Project object */;
+}
